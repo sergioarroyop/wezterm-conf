@@ -27,12 +27,12 @@ binding_config.keys = {
 	{
 		key = "RightArrow",
 		mods = "CTRL|SHIFT",
-		action = wezterm.action.ActivateTabRelative(-1),
+		action = wezterm.action.ActivateTabRelative(1),
 	},
 	{
 		key = "LeftArrow",
 		mods = "CTRL|SHIFT",
-		action = wezterm.action.ActivateTabRelative(1),
+		action = wezterm.action.ActivateTabRelative(-1),
 	},
 	-- Move through panels
 	{
